@@ -1,8 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	background-color: black;
+	background-color: rgb(21, 21, 21);
 	font-family: monospace;
 	text-align: center;
 	color: white;
+	scroll-behavior: smooth;
 
 /*
 	background: linear-gradient(-45deg, darkmagenta, darkcyan);
@@ -32,12 +37,24 @@ h1 {
 h2 {
 	text-align: left;
 	padding-left: 30px;
+}
+
+.codeh2 {
 	padding-top: 50px;
+}
+
+.codeul {
+	padding-left: 70px;
+}
+
+.h3title {
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 70px;
 }
 
 h3 {
 	text-align: left;
-	padding-top: 30px;
 	padding-left: 70px;
 }
 
@@ -52,10 +69,6 @@ a:visited {
 #quote {
 	text-align: left;
 	padding-left: 70px;
-}
-
-#downul {
-	padding-bottom: 50px;
 }
 
 .aboutmep {
@@ -83,7 +96,7 @@ p {
 
 hr {
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	width: 80%;
 }
 
@@ -109,22 +122,18 @@ hr {
 	text-align: left;
 	padding-left: 10px;
 	background-color: none;
-
 	cursor: pointer;
-	box-shadow: inset 0 0 0 0 gray;
+
+	box-shadow: inset 0 0 0 0 white;
 	-webkit-transition: ease-out 1000ms;
 	-moz-transition: ease-out 1000ms;
-	transition: ease-out 1000ms;
+	transition: ease-out 600ms;
 }
 
 .buttons:hover {
-	box-shadow: inset 400px 0 0 0 gray;
+	color: black;
+	box-shadow: inset 400px 0 0 0 white;
 }
-
-.buttons:active {
-	box-shadow: inset 400px 0 0 0 black;
-}
-
 
 #more {
 	display: none;
@@ -140,4 +149,25 @@ hr {
 #but:hover {
 	cursor: pointer;
 
+}
+
+.totop {
+	text-decoration: none;
+	font-size: 15px;
+	border-radius: 50px;
+	border: white 1px solid;
+	color: white;
+	padding: 12px 15px;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	height: 15px;
+	transition: 190ms;
+	opacity: 0.5;
+}
+
+.totop:hover {
+	background-color: black;
+	padding: 17px 20px;
+	opacity: 1;
 }
