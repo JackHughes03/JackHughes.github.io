@@ -1,0 +1,136 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: white;
+	font-family: system-ui;
+	color: rgb(76, 76, 76);
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+#darkmode {
+	padding: 20px;
+	top: 25px;
+	right: 20px;
+	position: absolute;
+	width: 10%;
+	height: 10%;
+}
+
+#leftback {
+	display: block;
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 25%;
+	background-color: rgb(20, 31, 57);
+}
+
+#h1titlecv {
+	color: white;
+	text-transform: uppercase;
+	z-index: 999;
+	background-color: steelblue;
+	position: absolute;
+	text-align: left;
+	margin-top: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+}
+
+#rightback {
+	font-size: 15px;
+	color: rgb(76, 76, 76);
+	position: absolute;
+	left: 25%;
+	top: 12%;
+	right: 0;
+	bottom: 0;
+}
+
+.personalstate {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-left: 15%;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+#skillsdown {
+	margin-top: 120px;
+}
+
+.paracv {
+	margin-left: 20px;
+}
+
+#gcseexpand {
+	display: none;
+}
+
+#alevelexpand {
+	display: none;
+}
+
+#degreeexpand {
+	display: none;
+}
+
+#musicacademyexpand {
+	display: none;
+}
+
+#entrepreneurshipexpand {
+	display: none;
+}
+
+h3 {
+	text-decoration: underline;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+button {
+	text-align: center;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	padding: 10px;
+	width: 70%;
+	display: block;
+	margin-top: 5px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#codeexpand {
+	display: none;
+}
+
+#musicexpand {
+	display: none;
+}
+
+#gymexpand {
+	display: none;
+}
+
+#freeguitarlessonsexpand {
+	display: none;
+}
