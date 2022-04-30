@@ -8,7 +8,7 @@ body {
 	color: rgb(76, 76, 76);
 }
 
-h1 {
+#title {
 	margin-left: 20px;
 }
 
@@ -22,6 +22,7 @@ h1 {
 }
 
 #leftback {
+	max-width: 200px;
 	overflow: scroll;
 	display: block;
 	z-index: 99;
@@ -52,7 +53,7 @@ h1 {
 	font-size: 15px;
 	color: rgb(76, 76, 76);
 	position: absolute;
-	left: 45%;
+	left: 200px;
 	top: 101px;
 	right: 0;
 	bottom: 0;
