@@ -23,14 +23,13 @@ h1 {
 
 #leftback {
 	overflow: scroll;
-	min-width: 200px;
 	display: block;
 	z-index: 99;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 25%;
+	width: 45%;
 	background-color: rgb(20, 31, 57);
 }
 
@@ -53,8 +52,8 @@ h1 {
 	font-size: 15px;
 	color: rgb(76, 76, 76);
 	position: absolute;
-	left: 25%;
-	top: 12%;
+	left: 45%;
+	top: 101px;
 	right: 0;
 	bottom: 0;
 }
@@ -64,7 +63,7 @@ h1 {
 	color: white;
 	text-transform: uppercase;
 	text-decoration: underline;
-	margin-left: 15%;
+	margin-left: 10%;
 	font-size: 15px;
 	margin-top: 20px;
 }
@@ -110,7 +109,7 @@ button {
 	margin-right: auto;
 	font-size: 12px;
 	padding: 10px;
-	width: 70%;
+	width: 80%;
 	display: block;
 	margin-top: 5px;
 	background-color: white;
