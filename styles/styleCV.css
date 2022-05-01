@@ -22,6 +22,7 @@ body {
 }
 
 #leftback {
+	transition: 300ms;
 	max-width: 200px;
 	overflow: scroll;
 	display: block;
@@ -29,7 +30,7 @@ body {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 0;
+	left: -200px;
 	width: 45%;
 	background-color: rgb(20, 31, 57);
 }
@@ -49,11 +50,12 @@ body {
 }
 
 #rightback {
+	transition: 300ms;
 	overflow: scroll;
 	font-size: 15px;
 	color: rgb(76, 76, 76);
 	position: absolute;
-	left: 200px;
+	left: 0px;
 	top: 101px;
 	right: 0;
 	bottom: 0;
@@ -137,4 +139,15 @@ button:hover {
 
 #freeguitarlessonsexpand {
 	display: none;
+}
+
+#expandleft {
+	transition: 300ms;
+	height: 50px;
+	width: 10px;
+	background-color: black;
+	z-index: 999;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%);
 }

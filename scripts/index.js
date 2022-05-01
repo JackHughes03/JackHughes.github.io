@@ -172,3 +172,19 @@ function expandfreeguitarlessons() {
 function email() {
 	window.location.href = 'mailto:jwhughes03@yahoo.com';
 }
+
+function expandleftbutton() {
+	const leftback = document.getElementById('leftback');
+	const expandleft = document.getElementById('expandleft');
+	const rightback = document.getElementById('rightback');
+
+	if(leftback.style.left == '0px') {
+		leftback.style.left = '-200px';
+		expandleft.style.left = '8px';
+		rightback.style.left = '0px';
+	} else {
+		rightback.style.left = '200px';
+		leftback.style.left = '0px';
+		expandleft.style.left = '208px';
+	}
+}
