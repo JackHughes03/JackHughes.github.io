@@ -185,6 +185,6 @@ function expandleftbutton() {
 	} else {
 		rightback.style.left = '200px';
 		leftback.style.left = '0px';
-		expandleft.style.left = '208px';
+		expandleft.style.left = '195px';
 	}
 }
