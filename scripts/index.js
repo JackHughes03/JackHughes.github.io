@@ -178,13 +178,11 @@ function expandleftbutton() {
 	const expandleft = document.getElementById('expandleft');
 	const rightback = document.getElementById('rightback');
 
-	if(leftback.style.left == '0px') {
-		leftback.style.left = '-200px';
-		expandleft.style.left = '8px';
-		rightback.style.left = '0px';
-	} else {
-		rightback.style.left = '200px';
+	if(leftback.style.left == '-200px') {
 		leftback.style.left = '0px';
-		expandleft.style.left = '195px';
+		rightback.style.left = '200px';
+	} else {
+		rightback.style.left = '0px';
+		leftback.style.left = '-200px';
 	}
 }

@@ -30,7 +30,7 @@ body {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: -200px;
+	left: 0px;
 	width: 45%;
 	background-color: rgb(20, 31, 57);
 }
@@ -55,7 +55,7 @@ body {
 	font-size: 15px;
 	color: rgb(76, 76, 76);
 	position: absolute;
-	left: 0px;
+	left: 200px;
 	top: 101px;
 	right: 0;
 	bottom: 0;
@@ -142,12 +142,13 @@ button:hover {
 }
 
 #expandleft {
+	border-radius: 2px;
 	transition: 300ms;
-	height: 50px;
+	height: 70px;
 	width: 10px;
 	background-color: black;
 	z-index: 999;
-	top: 50%;
+	right: 0;
+	top: 10px;
 	position: absolute;
-	transform: translate(-50%);
 }
