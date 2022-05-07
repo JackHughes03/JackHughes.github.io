@@ -186,3 +186,18 @@ function expandleftbutton() {
 		leftback.style.left = '-200px';
 	}
 }
+
+function expandpersonalstatement() {
+	const personalstatementexpand = document.getElementById('personalstatementexpand');
+	const personalstatementexpandbutton = document.getElementById('personalstatementexpandbutton');
+
+	if(personalstatementexpand.style.display == 'block') {
+		personalstatementexpandbutton.innerHTML = 'Personal statement';
+		personalstatementexpand.style.display = 'none';
+		personalstatementexpandbutton.style.backgroundColor = 'white';
+	} else {
+		personalstatementexpandbutton.style.backgroundColor = 'lightCoral';
+		personalstatementexpandbutton.innerHTML = 'Collapse';
+		personalstatementexpand.style.display = 'block';
+	}
+}

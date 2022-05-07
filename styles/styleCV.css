@@ -125,19 +125,7 @@ button:hover {
 	cursor: pointer;
 }
 
-#codeexpand {
-	display: none;
-}
-
-#musicexpand {
-	display: none;
-}
-
-#gymexpand {
-	display: none;
-}
-
-#freeguitarlessonsexpand {
+#codeexpand, #musicexpand, #gymexpand, #freeguitarlessonsexpand, #personalstatementexpand {
 	display: none;
 }
 
