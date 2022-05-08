@@ -140,3 +140,12 @@ button:hover {
 	top: 10px;
 	position: absolute;
 }
+
+a {
+	display: block;
+	margin-left: 8px;
+}
+
+a:visited {
+	color: blue;
+}
