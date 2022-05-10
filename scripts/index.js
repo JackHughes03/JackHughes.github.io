@@ -201,3 +201,13 @@ function expandpersonalstatement() {
 		personalstatementexpand.style.display = 'block';
 	}
 }
+
+function help() {
+	const helpexpand = document.getElementById('helpexpand');
+
+	if(helpexpand.style.display == 'block') {
+		helpexpand.style.display = 'none';
+	} else {
+		helpexpand.style.display = 'block';
+	}
+}
