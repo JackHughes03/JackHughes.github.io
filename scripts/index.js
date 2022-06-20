@@ -213,7 +213,7 @@ function check() {
 	var password = document.getElementById("pswd").value;
 	var passwordunlock = document.getElementById("passwordunlock");
 	
-	if (password == 'd') {
+	if (password == 'displayCV') {
 		leftback.style.filter = 'blur(0px)';
 		h1titlecv.style.filter = 'blur(0px)';
 		rightback.style.filter = 'blur(0px)';
