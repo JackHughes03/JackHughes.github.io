@@ -174,9 +174,7 @@ function email() {
 }
 
 function expandleftbutton() {
-	const leftback = document.getElementById('leftback');
 	const expandleft = document.getElementById('expandleft');
-	const rightback = document.getElementById('rightback');
 
 	if(leftback.style.left == '-200px') {
 		leftback.style.left = '0px';
@@ -211,3 +209,26 @@ function help() {
 		helpexpand.style.display = 'block';
 	}
 }
+function check() {
+	var password = document.getElementById("pswd").value;
+	var passwordunlock = document.getElementById("passwordunlock");
+	
+	if (password == 'd') {
+		leftback.style.filter = 'blur(0px)';
+		h1titlecv.style.filter = 'blur(0px)';
+		rightback.style.filter = 'blur(0px)';
+
+		leftback.style.pointerEvents = 'auto';
+		h1titlecv.style.pointerEvents = 'auto';
+		rightback.style.pointerEvents = 'auto';
+
+		passwordunlock.style.display = 'none';
+	}
+	else{
+		alert("Incorrect, try again.");
+	}
+}
+
+const leftback = document.getElementById('leftback');
+const h1titlecv = document.getElementById('h1titlecv');
+const rightback = document.getElementById('rightback');

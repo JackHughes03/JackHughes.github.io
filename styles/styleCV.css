@@ -22,6 +22,8 @@ body {
 }
 
 #leftback {
+	pointer-events: none;
+	filter: blur(5px);
 	transition: 300ms;
 	max-width: 200px;
 	overflow: scroll;
@@ -36,6 +38,8 @@ body {
 }
 
 #h1titlecv {
+	pointer-events: none;
+	filter: blur(5px);
 	color: white;
 	text-transform: uppercase;
 	z-index: 999;
@@ -50,6 +54,8 @@ body {
 }
 
 #rightback {
+	pointer-events: none;
+	filter: blur(5px);
 	transition: 300ms;
 	overflow: scroll;
 	font-size: 15px;
@@ -161,4 +167,18 @@ img {
 
 img:hover {
 	cursor: pointer;
+}
+
+#passwordunlock {
+	border: 1px solid black;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	z-index: 999;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	pointer-events: auto;
 }
